@@ -1,0 +1,8 @@
+<h1>Welcome to the Hi/Lo Game</h1>
+<h2>You have 8 attempts to a guess a secret number</h2>
+<h2>Please enter your guess in the box below</h2>
+<input type="text" placeholder="Input guess here">
+<button type="button">Submit</button>
+<h2>You guessed <%= params[:guess] %></h2>
+<h2><%= @result %></h2>
+<h2><%= cookies[:attempts] %></h2>
